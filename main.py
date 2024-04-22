@@ -217,7 +217,7 @@ def calculate_probabilities() -> None:
     probabilities = np.zeros((dimension, dimension), dtype=int)
 
     start = time.time()
-    while (time.time() < start + 1):
+    while (time.time() < start + 4):
         num_iter += 1
         success: bool = False
 
